@@ -110,8 +110,8 @@ while True:
   ball.setx(ball.xcor() + ball_speed)
 
   # Set a random value to bump the ball up and down by
-  ball_spicy_factor = random.randint(-7,7)
-  ball.sety(ball.ycor() + ball_spicy_factor)
+  ball_spiciness_factor = random.randint(-7,7)
+  ball.sety(ball.ycor() + ball_spiciness_factor)
 
   # Reset ball if a paddle fails to hit it 
   if ball.xcor() > 380:
